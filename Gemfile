@@ -54,7 +54,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'solidus', git: "git@github.com:dpaola2/solidus.git"
-gem 'solidus_auth_devise'
+gem 'solidus_auth_devise', git: "git@github.com:solidusio/solidus_auth_devise.git"
 gem 'rails_12factor'
 group :heroku do
   gem 'cloudinary', '~> 1.11'
